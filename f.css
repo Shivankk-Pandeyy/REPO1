@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&family=Gasoek+One&family=Oswald&family=Roboto+Mono:ital,wght@1,100&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Courier Prime', monospace;
+
+}
+body{
+    background-color:black;
+}
+.navbar{
+    border: 3px solid rgb(15, 203, 227);
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    height: 10vh;
+    overflow: hidden;    
+}
+.item a{
+    color:wheat;
+}
+.item{
+    color: white;
+    transition-property: all;
+    transition-duration: 2s;
+}
+.item:hover{
+    cursor: pointer;
+    font-size: 3.5rem;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border: 2px solid rgb(15, 203, 227) ;
+    margin-top: 0.2vh;
+}
+.footer p{
+    color: wheat;
+    font-size: 2.5rem;
+}
+.footer p:hover{
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.bmi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 85vh;
+    width: 50vw;
+    background-color: #a3b18a;
+    color: black;
+}
+.bmr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 85vh;
+    width: 50vw;
+    background-color: #588157;
+}
+h2{
+    color: black;
+}
+label{
+    color: black;
+    font-size: 1.5rem;
+}
+input{
+    height:5vh;
+    width: 18vw;
+    color: black;
+}
+button{
+    background-color: orange;
+    color: black;
+    border: 20px;
+    height: 5vh;
+    width: 10vw;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+#bmians{
+    color: black;
+    font-size: 2rem;
+}
+#bmrans{
+    color: black;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+@media screen and (min-width:360px) and (max-width:640px){
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color:black;
+}
+.navbar{
+    border: 3px solid rgb(15, 203, 227);
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1rem;
+    height: 10vh;
+    overflow: hidden;    
+}
+.item a{
+    color:wheat;
+}
+.item{
+    color: white;
+    transition-property: all;
+    transition-duration: 2s;
+}
+.item:hover{
+    cursor: pointer;
+    font-size: 3.5rem;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border: 2px solid rgb(15, 203, 227) ;
+    margin-top: 0.2vh;
+}
+.footer p{
+    color: wheat;
+    font-size: 1rem;
+}
+.footer p:hover{
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.bmi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 75vh;
+    width: 50vw;
+    background-color: #a3b18a;
+    color: black;
+}
+.bmr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 75vh;
+    width: 50vw;
+    background-color: #588157;
+}
+h2{
+    color: black;
+    font-size: 1rem;
+}
+label{
+    color: black;
+    font-size: 1rem;
+}
+input{
+    height:5vh;
+    width: 45vw;
+    color: black;
+}
+button{
+    background-color: orange;
+    color: black;
+    border: 20px;
+    height: 5vh;
+    width: 25vw;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+#bmians{
+    color: black;
+    font-size: 1rem;
+}
+#bmrans{
+    color: black;
+    font-size: 1rem;
+}
+}
+@media screen and (min-width:768px) and (max-width:1000px){
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+    body{
+        background-color:black;
+    }
+    .navbar{
+        border: 3px solid rgb(15, 203, 227);
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 2.5rem;
+        height: 10vh;
+        overflow: hidden;    
+    }
+    .item a{
+        color:wheat;
+    }
+    .item{
+        color: white;
+        transition-property: all;
+        transition-duration: 2s;
+    }
+    .item:hover{
+        cursor: pointer;
+        font-size: 3.5rem;
+    }
+    
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        border: 2px solid rgb(15, 203, 227) ;
+        margin-top: 0.2vh;
+    }
+    .footer p{
+        color: wheat;
+        font-size: 2rem;
+    }
+    .footer p:hover{
+        cursor: pointer;
+    }
+    .main{
+        display: flex;
+        height: 80vh;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .bmi{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 75vh;
+        width: 50vw;
+        background-color: #a3b18a;
+        color: black;
+    }
+    .bmr{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 75vh;
+        width: 50vw;
+        background-color: #588157;
+    }
+    h2{
+        color: black;
+        font-size: 2.5rem;
+    }
+    label{
+        color: black;
+        font-size: 1.5rem;
+    }
+    input{
+        height:5vh;
+        width: 18vw;
+        color: black;
+    }
+    button{
+        background-color: orange;
+        color: black;
+        border: 20px;
+        height: 5vh;
+        width: 10vw;
+        font-size: 1rem;
+        font-weight: 700;
+        cursor: pointer;
+    }#bmians{
+        color: black;
+        font-size: 1rem;
+    }
+    #bmrans{
+        color: black;
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,412 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+body{
+    background-color:black;
+}
+.navbar{
+    border: 3px solid rgb(15, 203, 227);
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    height: 10vh;
+    overflow: hidden;    
+}
+.item a{
+    color:wheat;
+}
+.item{
+    color: white;
+    transition-property: font-size;
+    transition-duration: 2s;
+}
+.item:hover{
+    cursor: pointer;
+    font-size: 3.5rem;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border: 2px solid rgb(15, 203, 227);
+    margin-top: 0.2vh;
+    transition-property: font-size;
+    transition-duration: 2s;
+}
+.footer p{
+    color: wheat;
+    font-size: 2.5rem;
+}
+.footer p:hover{
+    cursor: pointer;
+    font-size: 3.5;
+}
+.heading{
+    background-color: rgb(229, 235, 68);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10vh;
+
+}
+.content{
+    background-color:whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60vh;
+    width: 40vw;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+.body {
+    height: 70vh;
+    background-color:rgb(25, 45, 132);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+button{
+    cursor: pointer;
+    height: 5vh;
+    width: 5vw;
+    background-color: orange;
+    font-size: 1rem;
+    font-weight: 700;
+    color: black;
+}
+input{
+    font-size: 1rem;
+    height: 5vh;
+    width: 15vw ;
+    color: black;
+}
+ul li{
+    list-style: none;
+    font-size: 1.5rem;
+    user-select: none;
+    cursor: pointer;
+    padding: 1vh;
+    position: relative;
+}
+ul li::before{
+    content: '';
+    position: absolute;
+    height: 3vh;
+    width: 3vh;
+    background-image: url('unchecked.png');
+    background-size: cover;
+    background-position:center ;
+    top:1.5vh;
+    left: -3vw;
+}
+ul li.checked{
+    color: blue;
+    text-decoration: line-through;
+}
+ul li.checked::before{
+    background-image: url('checked.png');
+}
+ul li span{
+    position: absolute;
+    right: 0;
+    top: 2vh;
+    height: 4vh;
+    width: 4vw;
+    font-size: 1rem;
+    color:#555;
+    line-height: 4vh;
+    text-align: center;
+    border-radius: 20px;
+}
+ul li span:hover{
+    background-color: slateblue;
+}
+
+@media screen and (max-width:600px){
+
+
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color:black;
+}
+.navbar{
+    border: 3px solid rgb(15, 203, 227);
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1rem;
+    height: 10vh;
+    overflow: hidden;    
+}
+.item a{
+    color:wheat;
+}
+.item{
+    color: white;
+    transition-property: all;
+    transition-duration: 2s;
+}
+.item:hover{
+    cursor: pointer;
+    font-size: 3.5rem;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border: 2px solid rgb(15, 203, 227) ;
+    margin-top: 0.2vh;
+    margin-top: 1vh;
+}
+.footer p{
+    color: wheat;
+    font-size: 1rem;
+}
+.footer p:hover{
+    cursor: pointer;
+}
+.heading{
+    background-color: rgb(229, 235, 68);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10vh;
+
+}
+.content{
+    background-color:whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60vh;
+    width: 80vw;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+.body {
+    height: 90vh;
+    background-color:rgb(25, 45, 132);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+button{
+    cursor: pointer;
+    height: 5vh;
+    width: 15vw;
+    background-color: orange;
+    font-size: 1rem;
+    font-weight: 700;
+    color: black;
+}
+input{
+    font-size: 1rem;
+    height: 5vh;
+    width: 50vw ;
+    color: black;
+}
+ul li{
+    list-style: none;
+    font-size: 1.5rem;
+    user-select: none;
+    cursor: pointer;
+    padding: 1vh;
+    position: relative;
+}
+ul li::before{
+    content: '';
+    position: absolute;
+    height: 3vh;
+    width: 3vh;
+    background-image: url('unchecked.png');
+    background-size: cover;
+    background-position:center ;
+    top:1.5vh;
+    left: -6.5vw;
+}
+ul li.checked{
+    color: blue;
+    text-decoration: line-through;
+}
+ul li.checked::before{
+    background-image: url('checked.png');
+}
+ul li span{
+    position: absolute;
+    right: 0;
+    top: 2vh;
+    height: 4vh;
+    width: 4vw;
+    font-size: 1rem;
+    color:#555;
+    line-height: 4vh;
+    text-align: center;
+    border-radius: 20px;
+}
+ul li span:hover{
+    background-color: slateblue;
+}
+}
+@media screen and (min-width:768px) and (max-width:1000px){
+    
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+    body{
+        background-color:black;
+    }
+    .navbar{
+        border: 3px solid rgb(15, 203, 227);
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 2.5rem;
+        height: 10vh; 
+    }
+    .item a{
+        color:wheat;
+    }
+    .item{
+        color: white;
+        transition-property: all;
+        transition-duration: 2s;
+    }
+    .item:hover{
+        cursor: pointer;
+        font-size: 3.5rem;
+    }
+    
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        border: 2px solid rgb(15, 203, 227) ;
+        margin-top: 0.2vh;
+
+    }
+    .footer p{
+        color: wheat;
+        font-size: 2.5rem;
+    }
+    .footer p:hover{
+        cursor: pointer;
+    }
+    .heading{
+        background-color: rgb(229, 235, 68);
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 10vh;
+    
+    }
+    .content{
+        background-color:whitesmoke;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 70vh;
+        width: 80vw;
+    }
+    .list{
+        display: flex;
+        flex-direction: column;
+        background-color: whitesmoke;
+    }
+    .body {
+        height: 90vh;
+        background-color:rgb(25, 45, 132);
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    button{
+        cursor: pointer;
+        height: 5vh;
+        width: 15vw;
+        background-color: orange;
+        font-size: 1rem;
+        font-weight: 700;
+        color: black;
+    }
+    input{
+        font-size: 1rem;
+        height: 5vh;
+        width: 45vw ;
+        color: black;
+    }
+    ul li{
+        list-style: none;
+        font-size: 3.5rem;
+        user-select: none;
+        cursor: pointer;
+        padding: 1vh;
+        position: relative;
+    }
+    ul li::before{
+        content: '';
+        position: absolute;
+        height: 3vh;
+        width: 3vh;
+        background-image: url('unchecked.png');
+        background-size: cover;
+        background-position:center ;
+        top:1.5vh;
+        left: -3vw;
+    }
+    ul li.checked{
+        color: blue;
+        text-decoration: line-through;
+    }
+    ul li.checked::before{
+        background-image: url('checked.png');
+    }
+    ul li span{
+        position: absolute;
+        right: 0;
+        top: 2vh;
+        height: 4vh;
+        width: 4vw;
+        font-size: 1rem;
+        color:#555;
+        line-height: 4vh;
+        text-align: center;
+        border-radius: 20px;
+    }
+    ul li span:hover{
+        background-color: slateblue;
+    }
+}

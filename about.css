@@ -1,0 +1,536 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&family=Gasoek+One&family=Oswald&family=Roboto+Mono:ital,wght@1,100&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Courier Prime', monospace;
+
+}
+body{
+    background-color:black;
+}
+.navbar{
+    border: 3px solid rgb(15, 203, 227);
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    height: 10vh;
+    overflow: hidden;    
+}
+.item a{
+    color:wheat;
+}
+.item{
+    color: white;
+    transition-property: all;
+    transition-duration: 2s;
+}
+.item:hover{
+    cursor: pointer;
+    font-size: 3.5rem;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border: 2px solid rgb(15, 203, 227);
+    margin-top: 0.2vh;
+    margin-top: 5vh;
+}
+.footer p{
+    color: wheat;
+    font-size: 2.5rem;
+}
+.footer p:hover{
+    cursor: pointer;
+}
+/* basic,photo,intro */
+.basic{
+    background-color:black;
+    display: flex;
+    height: 50vh;
+    width: 100vw;
+    margin-top: 5vh;
+}
+
+.photo{
+    border: 2px solid rgb(15, 203, 227);
+    background-color: black;
+    height: 50vh;
+    width: 50vw;
+    align-items: center;
+    justify-content: space-between;
+}
+.photo img{
+    margin-left: 30vh;
+    height: 50vh;
+}
+.intro{
+    border: 2px solid rgb(15, 203, 227);
+    background-color: black;
+    height: 50vh;
+    width: 50vw;
+}
+.intro p{
+    font-size: 2rem;
+    color: whitesmoke;
+}
+.text{
+    font-size: 4.5rem;
+    color:white;
+}
+h1{
+    color: whitesmoke;
+}
+/* edu,college,school */
+
+.edu{
+    margin-top: 5vh;
+    background-color: black;
+    display: flex;
+    height: 40vh;
+    width: 100vw;
+}
+
+.college{
+    border: 2px solid rgb(15, 203, 227);
+    background-color:black;
+    display: flex;
+    height: 40vh;
+    width: 50vw;
+}
+.school{
+    border: 2px solid rgb(15, 203, 227);
+    background-color: black;
+    display: flex;
+    height: 40vh;
+    width: 50vw;
+}
+
+/* add hobies addskill */
+
+.add{
+    margin-top: 5vh;
+    background-color: black;
+    display: flex;
+    height: 40vh;
+    width: 100vw;
+}
+
+.hobies{
+    border: 2px solid rgb(15, 203, 227);
+    background-color:black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 40vh;
+    width: 50vw;
+}
+.hobies p{
+    font-size: 2.5rem;
+    color: whitesmoke;
+}
+.addskill{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid rgb(15, 203, 227);
+    background-color: black;
+    height: 40vh;
+    width: 50vw;
+}
+.addskill p{
+    font-size: 2.5rem;
+    color: whitesmoke;
+}
+#vit{
+    height: 39vh;
+    width: 20vw;
+}
+#dps{
+    
+    height: 39vh;
+    width: 20vw;
+}
+.pip1{
+    font-size: 3.2rem;
+    color:whitesmoke;
+}
+
+.pip2{
+    font-size: 3rem;
+    color:whitesmoke;
+}
+
+#talks li{
+    color: whitesmoke;
+    font-size: 2rem;
+}
+
+h3{
+    color: white;
+    font-size: 3rem;
+}
+
+
+@media screen and (max-width:600px){
+
+
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color:black;
+}
+.navbar{
+    border: 3px solid rgb(15, 203, 227);
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1rem;
+    height: 10vh;
+    overflow: hidden;    
+}
+.item a{
+    color:wheat;
+}
+.item{
+    color: white;
+    transition-property: all;
+    transition-duration: 2s;
+}
+.item:hover{
+    cursor: pointer;
+    font-size: 3.5rem;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border: 2px solid rgb(15, 203, 227) ;
+    margin-top: 0.2vh;
+    margin-top: 5vh;
+}
+.footer p{
+    color: wheat;
+    font-size: 1rem;
+}
+.footer p:hover{
+    cursor: pointer;
+}
+/* basic,photo,intro */
+.basic{
+    background-color: black;
+    display: flex;
+    height: 55vh;
+    width:100vw;
+    margin-top: 5vh;
+}
+
+.photo{
+    border: 2px solid rgb(15, 203, 227);
+    background-color:black;
+    height: 50vh;
+    width:50vw;
+}
+.photo img{
+    margin-left: 30vh;
+    height: 50vh;
+    margin-left:-0vh;
+}
+.intro{
+    border: 2px solid rgb(15, 203, 227);
+    background-color:black;
+    height: 50vh;
+    width:50vw;
+}
+.intro p{
+    font-size: 1rem;
+    color: whitesmoke;
+}
+.text{
+    font-size: 1.5rem;
+    color: brown;
+}
+/* edu,college,school */
+
+.edu{
+    background-color: black;
+    display: flex;
+    height: 60vh;
+    margin-top: 5vh;
+}
+
+.college{
+    border: 2px solid rgb(15, 203, 227);
+    background-color: black;
+    display: flex;
+    flex-direction:column;
+    height: 60vh;
+    width: 50vw;
+}
+.school{
+    border: 2px solid rgb(15, 203, 227);
+    background-color: black;
+    display: flex;
+    flex-direction:column;
+    height: 60vh;
+    width: 50vw;
+}
+
+/* add hobies addskill */
+
+.add{
+    background-color: black;
+    display: flex;
+    height: 40vh;
+    margin-top: 5vh;
+}
+
+.hobies{
+    border: 2px solid rgb(15, 203, 227);
+    background-color:black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 40vh;
+    width: 50vw;
+}
+.hobies p{
+    font-size: 1.8rem;
+    color: whitesmoke;
+}
+.addskill{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid rgb(15, 203, 227);
+    background-color: black;
+    height: 40vh;
+    width:50vw;
+}
+.addskill p{
+    font-size: 1.1rem;
+    color: whitesmoke;
+}
+#vit{
+    height: 40vh;
+    width: 44vw;
+}
+#dps{
+    
+    height: 40vh;
+    width: 44vw;
+}
+.pip1{
+    font-size: 1.2rem;
+    color:whitesmoke;
+}
+
+.pip2{
+    font-size: 1.2rem;
+    color: whitesmoke;
+}
+
+#talks li{
+    margin-left:6vh;
+    color: whitesmoke;
+    font-size: 0.8rem;
+}
+    
+    h3{
+        font-size:1.6rem;
+    margin-left:2vh;
+    
+}
+}
+@media screen and (min-width:768px) and (max-width:1000px){
+    
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+    body{
+        background-color:black;
+    }
+    .navbar{
+        border: 3px solid rgb(15, 203, 227);
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 2.5rem;
+        height: 10vh; 
+    }
+    .item a{
+        color:wheat;
+    }
+    .item{
+        color: white;
+        transition-property: all;
+        transition-duration: 2s;
+    }
+    .item:hover{
+        cursor: pointer;
+        font-size: 3.5rem;
+    }
+    
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        border: 2px solid rgb(15, 203, 227) ;
+        margin-top: 0.2vh;
+        margin-top: 5vh;
+    }
+    .footer p{
+        color: wheat;
+        font-size: 2rem;
+    }
+    .footer p:hover{
+        cursor: pointer;
+    }
+    /* basic,photo,intro */
+    .basic{
+        background-color: black;
+        display: flex;
+        height: 50vh;
+        width:100vw;
+        margin-top: 5vh;
+    }
+    
+    .photo{
+        border: 2px solid rgb(15, 203, 227);
+        background-color:black;
+        height: 50vh;
+        width:50vw;
+    }
+    .photo img{
+        margin-left: 30vh;
+        height: 50vh;
+        margin-left:-0vh;
+    }
+    .intro{
+        border: 2px solid rgb(15, 203, 227);
+        background-color:black;
+        height: 50vh;
+        width:50vw;
+    }
+    .intro p{
+        font-size: 2rem;
+        color: whitesmoke;
+    }
+    .text{
+        font-size: 4rem;
+        color:whitesmoke;
+    }
+    /* edu,college,school */
+    
+    .edu{
+        background-color: black;
+        display: flex;
+        height: 65vh;
+        margin-top: 5vh;
+    }
+    
+    .college{
+        border: 2px solid rgb(15, 203, 227);
+        background-color: black;
+        display: flex;
+        flex-direction:column;
+        height: 65vh;
+        width: 50vw;
+    }
+    .school{
+        border: 2px solid rgb(15, 203, 227);
+        background-color: black;
+        display: flex;
+        flex-direction:column;
+        height: 65vh;
+        width: 50vw;
+    }
+    
+    /* add hobies addskill */
+    
+    .add{
+        background-color: black;
+        display: flex;
+        height: 40vh;
+        margin-top: 5vh;
+    }
+    
+    .hobies{
+        border: 2px solid rgb(15, 203, 227);
+        background-color:black;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 40vh;
+        width: 50vw;
+    }
+    .hobies p{
+        font-size: 1.5rem;
+        color: whitesmoke;
+    }
+    .addskill{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border: 2px solid rgb(15, 203, 227);
+        background-color: black;
+        height: 40vh;
+        width:50vw;
+    }
+    .addskill p{
+        font-size: 1.1rem;
+        color: whitesmoke;
+    }
+    #vit{
+        height: 40vh;
+        width: 44vw;
+    }
+    #dps{
+        
+        height: 40vh;
+        width: 44vw;
+    }
+    .pip1{
+        font-size: 3rem;
+        color:whitesmoke;
+    }
+    
+    .pip2{
+        font-size: 2.5rem;
+        color: whitesmoke;
+    }
+    
+    #talks li{
+        margin-left:6vh;
+        color: whitesmoke;
+        font-size: 2rem;
+    }
+        
+        h3{
+            font-size:2.1rem;
+        margin-left:2vh;
+        
+    }
+}
